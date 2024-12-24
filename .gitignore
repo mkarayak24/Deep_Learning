@@ -7,3 +7,6 @@ Final Project/resnet18_0.7803.csv
 Final Project/resnet34.csv
 Final Project/balanced_data.csv
 *.csv
+*.pth
+*.pth
+*.pth
