@@ -1,0 +1,149 @@
+% CVPR 2023 Paper Template
+% based on the CVPR template provided by Ming-Ming Cheng (https://github.com/MCG-NKU/CVPR_Template)
+% modified and extended by Stefan Roth (stefan.roth@NOSPAMtu-darmstadt.de)
+
+\documentclass[10pt,twocolumn,letterpaper]{article}
+
+%%%%%%%%% PAPER TYPE  - PLEASE UPDATE FOR FINAL VERSION
+\usepackage{cvpr}              % To produce the CAMERA-READY version
+%\usepackage[pagenumbers]{cvpr} % To force page numbers, e.g. for an arXiv version
+
+% Include other packages here, before hyperref.
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{booktabs}
+
+
+% It is strongly recommended to use hyperref, especially for the review version.
+% hyperref with option pagebackref eases the reviewers' job.
+% Please disable hyperref *only* if you encounter grave issues, e.g. with the
+% file validation for the camera-ready version.
+%
+% If you comment hyperref and then uncomment it, you should delete
+% ReviewTempalte.aux before re-running LaTeX.
+% (Or just hit 'q' on the first LaTeX run, let it finish, and you
+%  should be clear).
+\usepackage[pagebackref,breaklinks,colorlinks]{hyperref}
+
+
+% Support for easy cross-referencing
+\usepackage[capitalize]{cleveref}
+\crefname{section}{Sec.}{Secs.}
+\Crefname{section}{Section}{Sections}
+\Crefname{table}{Table}{Tables}
+\crefname{table}{Tab.}{Tabs.}
+
+
+%%%%%%%%% PAPER ID  - PLEASE UPDATE
+\def\cvprPaperID{*****} % *** Enter the CVPR Paper ID here
+\def\confName{CVPR}
+\def\confYear{2023}
+
+
+\begin{document}
+
+%%%%%%%%% TITLE - PLEASE UPDATE
+\title{Report Template for Course Deep Learning 2024}
+
+\author{First Author\\
+Institution1\\
+Institution1 address\\
+{\tt\small firstauthor@i1.org}
+% For a paper whose authors are all at the same institution,
+% omit the following lines up until the closing ``}''.
+% Additional authors and addresses can be added with ``\and'',
+% just like the second author.
+% To save space, use either the email address or home page, not both
+\and
+Second Author\\
+Institution2\\
+Institution2 address\\
+{\tt\small secondauthor@i2.org}
+\and
+Third Author\\
+Institution3\\
+Institution3 address\\
+{\tt\small secondauthor@i3.org}
+}
+\maketitle
+
+
+\section{Approach}
+\label{sec:Appr}
+In this section, you should aim to give readers a clear understanding of the nature and context of your project or task. If a visual overview diagram can help illustrate your methodology or approach, it can be a valuable addition to enhance comprehension.
+
+%-------------------------------------------------------------------------
+\subsection{First step}
+Here you can start to introduce the approach in detail. 
+
+\subsection{Second step}
+
+\subsection{More information about approach}
+
+\subsection{Mathematics}
+
+Please number all of your sections and displayed equations as in these examples:
+\begin{equation}
+  E = m\cdot c^2
+  \label{eq:important}
+\end{equation}
+and
+\begin{equation}
+  v = a\cdot t.
+  \label{eq:also-important}
+\end{equation}
+
+\section{Experiment and Discussion}
+\label{sec:Exp}
+
+In this section, you should introduce the datasets, training setups, the results, visualization, and analysis.
+
+\subsection{Example of Figure and Table}
+
+\begin{table}[ht]
+	\centering
+	\begin{tabular}{@{}lc@{}}
+		\toprule
+		Method & Frobnability \\
+		\midrule
+		Theirs & Frumpy \\
+		Yours & Frobbly \\
+		Ours & Makes one's heart Frob\\
+		\bottomrule
+	\end{tabular}
+	\caption{Results.   Ours is better.}
+	\label{tab:example}
+\end{table}
+
+
+\begin{figure}[ht]
+	\centering
+	\fbox{\rule{0pt}{2in} \rule{0.9\linewidth}{0pt}}
+	%\includegraphics[width=0.8\linewidth]{egfigure.eps}
+	\caption{Example of caption.}
+	\label{fig:example}
+\end{figure}
+
+
+\subsection{References}
+
+When referenced in the text, enclose the citation number in square brackets, for
+example~\cite{Authors14}.
+
+
+%-------------------------------------------------------------------------
+
+\section{Conclusion}
+Summary of your report.
+
+
+%------------------------------------------------------------------------
+
+%%%%%%%%% REFERENCES
+{\small
+\bibliographystyle{ieee_fullname}
+\bibliography{egbib}
+}
+
+\end{document}
